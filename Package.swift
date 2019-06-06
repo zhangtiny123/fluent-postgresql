@@ -8,8 +8,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/vapor/fluent-kit.git", .branch("master")),
-        .package(url: "https://github.com/vapor/nio-postgres.git", .revision("732838895a2d8dbab5a883cfa45025f76826d7d9")),
-        .package(url: "https://github.com/vapor/sql.git", .branch("master")),
+        .package(url: "https://github.com/vapor/nio-postgres.git", .branch("master")),
         .package(url: "https://github.com/vapor/nio-kit.git", .branch("master")),
     ],
     targets: [
