@@ -16,8 +16,7 @@ let package = Package(
             "FluentKit",
             "FluentSQL",
             "NIOKit",
-            "NIOPostgres",
-            "SQLKit"
+            "NIOPostgres"
         ]),
         .testTarget(name: "FluentPostgresDriverTests", dependencies: [
             "FluentBenchmark",
