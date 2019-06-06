@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "FluentPostgresDriver", targets: ["FluentPostgresDriver"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/fluent-kit.git", .branch("master")),
+        .package(url: "https://github.com/zhangtiny123/fluent-kit.git", .branch("swift-back")),
         .package(url: "https://github.com/vapor/nio-postgres.git", .branch("master")),
         .package(url: "https://github.com/vapor/sql-kit.git", from: "3.0.0-alpha"),
         .package(url: "https://github.com/vapor/nio-kit.git", .branch("master")),
