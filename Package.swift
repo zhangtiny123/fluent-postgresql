@@ -9,6 +9,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/vapor/fluent-kit.git", .branch("master")),
         .package(url: "https://github.com/vapor/nio-postgres.git", .branch("master")),
+        .package(url: "https://github.com/vapor/sql-kit.git", from: "3.0.0-alpha"),
         .package(url: "https://github.com/vapor/nio-kit.git", .branch("master")),
     ],
     targets: [
@@ -16,7 +17,8 @@ let package = Package(
             "FluentKit",
             "FluentSQL",
             "NIOKit",
-            "NIOPostgres"
+            "NIOPostgres",
+            "SQLKit"
         ]),
         .testTarget(name: "FluentPostgresDriverTests", dependencies: [
             "FluentBenchmark",
